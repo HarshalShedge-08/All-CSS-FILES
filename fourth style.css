@@ -1,0 +1,35 @@
+*{
+	color:white;
+	background-color:black;
+	font-family:Bahnschrift;
+}
+h1{
+	text-align:center;
+	color:red;
+	font-size:50px;
+	display:inline;
+	cursor:crosshair;
+	
+}
+.hone{
+	color:green;
+	cursor:move;
+}
+.hthree{
+	color:violet;
+	cursor:help;
+}
+#heading1{
+	display:block;
+	color:red;
+	background-color:yellow;
+	cursor:pointer;
+}
+h2,h3{
+	color:blue;
+	cursor:zoom-in;
+	text-decoration:underline;
+}
+p{
+	cursor:zoom-out;
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>combinator & psedo</title>
+
+</head>
+
+<style>
+body{
+background-color:gray;
+}
+
+
+h1~p{
+color:pink;
+}
+p+p{
+color:red;
+}
+div>p{
+font-family:Brush Script MT;
+}
+div p{
+font-size:30px;
+}
+
+
+
+a:link{
+background-color:white;
+}
+a:active{
+color:yellow;
+}
+a:visited:{
+background-color:black;
+}
+a:hover{
+background-color:red;
+}
+h3:hover{
+background-color:white;
+}
+h1:hover{
+background-color:white;
+}
+h2:hover{
+background-color:white;
+}
+p:hover{
+background-color:white;
+}
+
+
+p::after{
+content:"_*";
+}
+p::before{
+content:"_";
+}
+p::first-letter{
+font-size:40px
+}
+h3::first-line{
+font-family:Bahnschrift;
+}
+
+
+</style>
+
+<body>
+
+<h1><span style="color:blue;">WELCOME</span> <span style="color:yellow;">TO</span> <span style="color:red;">CSS</span></h1>
+
+<h2><span style="color:green;">(CASCADING STYLE SHEET)</span></h2>
+
+<hr>
+
+<a target="blank" href="https://www.google.com/search?q=home+images&tbm=isch&ved=2ahUKEwja7Yup6pP7AhXxjtgFHTMxDkMQ2-cCegQIABAA&oq=home+i&gs_lcp=CgNpbWcQARgCMgcIABCxAxBDMggIABCABBCxAzIHCAAQsQMQQzIHCAAQsQMQQzIECAAQQzIFCAAQgAQyBAgAEEMyBwgAELEDEEMyBAgAEEMyBAgAEEM6CwgAEIAEELEDEIMBULMRWMEbYNcwaABwAHgAgAF3iAG3ApIBAzIuMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=C6hkY5q8BPGd4t4Ps-K4mAQ&bih=657&biw=1366&rlz=1C1SQJL_enIN1020IN1020">
+home</a>
+
+<a target="blank" href="https://www.google.com/search?q=about+us+images&rlz=1C1SQJL_enIN1020IN1020&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjJ2auO65P7AhXYxnMBHavcBqoQ_AUoAXoECAEQAw&biw=1366&bih=657&dpr=1">
+about</a>
+
+<hr>
+
+<h3>COMBINATOR SELECTOR</h3>
+
+<P>There are four types</P>
+
+<div>
+<p>1-General sibling selecotor(~)</p>
+<p>2-Adjacent sibling selecotor(+)</p>
+<p>3-Child selecotor(>)</p>
+<p>4-Descendant selecotor(space)</p>
+</div>
+
+<hr>
+
+<h3>PSEDO-CLASS SELECTOR</h3>
+
+<P>It is used to define special state of an element</P>
+
+<p>There are four types</p>
+<p>1-:Link</p>
+<p>2-:Active</p>
+<p>3-:Before</p>
+<p>4-:Hover</p>
+<hr>
+
+</body>
+</html>

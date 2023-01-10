@@ -1,0 +1,168 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+.main{
+	height:3000px;
+	width:1200px;
+	background-color:skyblue;
+	margin:auto;
+}
+
+.header{
+	height:100px;
+	width:1200px;
+	background-color:black;
+}
+h1{
+	text-align:center;
+	color:white;
+	font-size:70px;
+	font-family:Broadway;
+}
+.menu{
+	height:50px;
+	width:1200px;
+	background-color:gray;
+}
+
+.menu ul li{
+	float:left;
+	list-style:none;
+	height:40px;
+	width:250px;
+	background-color:black;
+	margin-left:40px;
+	margin-top:5px;
+	text-align:center;
+	line-height:40px;
+	
+}
+.menu ul li a{
+	text-decoration:none;
+	font-family:Impact;
+	color:white;
+	font-size:30px;
+}
+
+.menu ul li:hover{
+	background-color:red;
+	color:yellow;
+}
+
+.banner{
+	height:350px;
+	width:1200px;
+	background-color:black;
+}
+.banner section h2{
+	display:none;
+}
+.content{
+	height:400px;
+	width:1200px;
+	background-color:red;
+}
+.author{
+	height:400px;
+	width:350px;
+	background-color:orange;
+	float:left;
+}
+
+
+.cont{
+	height:400px;
+	width:850px;
+	background-color:gray;
+	float:left;
+}
+.page2{
+	height:1000px;
+	width:1200px;
+	background-color:red;
+}
+.page2 section h2{
+	display:none;
+}
+.box1{
+	height:500px;
+	width:1200px;
+	background-color:green;
+}
+.box2{
+	height:500px;
+	width:1200px;
+	background-color:violet;
+}
+
+
+.page3{
+	height:1000px;
+	width:1200px;
+	background-color:black;
+}
+.page3 section h2{
+	display:none;
+}
+.b1{
+	height:250px;
+	width:600px;
+	background-color:green;
+}
+.b1-1{
+	height:250px;
+	width:600px;
+	background-color:gray;
+	float:left;
+}
+
+.b2{
+	height:250px;
+	width:1200px;
+	background-color:violet;
+}
+.b3{
+	height:250px;
+	width:1200px;
+	background-color:black;
+}
+.b1-1{
+	height:250px;
+	width:600px;
+	background-color:gray;
+	float:left;
+}
+.b4{
+	height:250px;
+	width:1200px;
+	background-color:violet;
+}
+
+
+.page4{
+	height:1000px;
+	width:1200px;
+	background-color:orange;
+}
+.page4 section h2{
+	display:none;
+}
+.bo1{
+	height:500px;
+	width:1200px;
+	background-color:orange;
+}
+.bo2{
+	height:500px;
+	width:1200px;
+	background-color:red;
+}
+
+.footer{
+	height:100px;
+	width:1200px;
+	background-color:black;
+	color:white;
+	text-align:center;
+}

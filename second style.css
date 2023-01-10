@@ -1,0 +1,22 @@
+h1
+{
+	text-align:center;
+	color:red;
+	text-shadow:5px 7px 5px blue;
+	font-size:80px;
+	font-family:Brush Script MT;
+}
+p
+{
+	height:350px;
+	width:100%;
+	background-image:url('./Images/home2.jpg');
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	background-position:center;
+}
+body
+{
+	background-color:skyblue;
+}
+	
